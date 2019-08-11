@@ -6,13 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>accueil</title>
-    <link rel="shortcut icon" href="sites/prod/site_medical/favicon_doc.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon_doc.ico" type="image/x-icon"/>
     <!--probleme affichage favicon-->
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <p><h1>Bienvenue au cabinet Zen-Médical!</h1></p>
+    <header>Cabinet Zen-Médical</header>
+    <nav>
+                <a href="#">Accueil</a>
+                <a href="#">Généraliste</a>
+                <a href="#">Ostéopathe</a>
+                <a href="#">Informations patient</a>
+                <a href="#">Urgences</a>
+                <a href="#">Accessibilités</a>
+                <a href="#">Contacts</a>
+        </nav>
+        <article>
+    <p class="introduction title">Bienvenue au cabinet Zen-Médical!</p><!--article home page-->
     <p>Bonjour à tous, afin de répondre au mieux à vos demandes de qualités de soins,
-        <br> le cabinet vous propose 2 sortes de disciplines médicales:
+        <br>le cabinet vous propose 2 sortes de disciplines médicales:
         <ul>- un généraliste (pour les maux du quotidien)</ul>
         <ul>- et un ostéopathe (pour approndir le soin apporté à votre corps).</ul>
         </p>
@@ -24,9 +37,9 @@
                 <br><ul><li>le choix de votre praticien, ses honaires, ses compétences.</li></ul>
                 <p> - Généraliste:<a href="generaliste.html"></a> </p>
                 <p> - Ostéopathe:<a href="osteopathe.html"></a> </p>
-                <br><ul><li>les informations utiles pour préparer au mieux votre visite au sein de notre structure.
+                <br><ul><li>les informations utiles pour préparer au mieux votre visite au sein de notre structure,
                     <a href="a_propos.html"></a></li></ul>
-                <br><ul><li>les informations en cas d'urgences <a href="urgences.html"></a></li></ul>
+                <br><ul><li>les informations en cas d'urgences, <a href="urgences.html"></a></li></ul>
                 <br><ul><li>ainsi que toutes les informations pratiques concernant le cabinet (accessibilité, parkings, etc).<a href="contact.html"></a></li></ul>
             </p>
             <p></p>
@@ -37,5 +50,20 @@
     <p>Bien à vous, l'équipe Zen-Médical.</p><br/>
     <figure><img src="images/equipe.jpg" alt="photo_equipe_medicale"/></figure>
     </p>
+</article>
+
+<aside>
+<p class="horaires"></p><!--article home page-->
+<p class="adresse"></p><!--reminber telephone of cabinet-->
+<p class="adress"></p><!--reminber adress of cabinet-->
+</aside>
+
+    <footer><!--possibility add social networks-->
+        <table>
+            <tr><td>Adresse:</td><td>Téléphone:</td><td>Email:</td></tr>
+            <tr><td>2 Boulevard Thomson, 59810 Lesquin</td><td>03 20 61 70 70</td><td>contact[at]zen-medical.com</td></tr>
+        </table>
+        </footer>
+
 </body>
 </html>
