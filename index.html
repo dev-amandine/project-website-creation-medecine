@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>accueil</title>
-    <link rel="shortcut icon" href="favicon_doc.ico" type="image/x-icon"/>
-    <!--probleme affichage favicon-->
     <link rel="stylesheet" href="style.css" />
+    <title>Cabinet Zen-Médical</title>
+    <link rel="shortcut icon" href="favicon_doctor.ico" type="image/x-icon"/>
 </head>
 
 <body>
-    <header>Cabinet Zen-Médical</header>
-    <nav>
+    <div class="gridbody">
+    <!--zone header site-->
+    <section class="header"><header>Cabinet Zen-Médical</header>
+    <nav class="navclass">
                 <a href="#">Accueil</a>
                 <a href="#">Généraliste</a>
                 <a href="#">Ostéopathe</a>
@@ -21,18 +22,27 @@
                 <a href="#">Urgences</a>
                 <a href="#">Accessibilités</a>
                 <a href="#">Contacts</a>
-        </nav>
+                <a href="tel:+33 03 20 61 70 70">Cliquez ici pour appeler le 03 20 61 70 70</a>
+            </nav></section>
+    <section class="background_site"><img src="images/background_site.jpg" alt="image_de_fond_cabinet" class="pictureback"/> </section>
+
+<main><!--container-->
         <article>
-    <p class="introduction title">Bienvenue au cabinet Zen-Médical!</p><!--article home page-->
-    <p>Bonjour à tous, afin de répondre au mieux à vos demandes de qualités de soins,
+    <p><h1>Bienvenue au cabinet Zen-Médical!</h1></p><!--article home page-->
+    
+    <p>Bonjour à tous,
+        <p></p> 
+        <br>afin de répondre au mieux à vos demandes de qualités de soins,
         <br>le cabinet vous propose 2 sortes de disciplines médicales:
-        <ul>- un généraliste (pour les maux du quotidien)</ul>
-        <ul>- et un ostéopathe (pour approndir le soin apporté à votre corps).</ul>
+        <ul>- un généraliste (pour les maux du quotidien)</ul><!--pas de commantaire précis ici-->
+        <ul>- un ostéopathe (pour approndir le soin apporté à votre corps).</ul>
         </p>
         <p></p>
         <p></p>
-        <p> Nos praticiens vous accueillent tous les jours du lundi au vendredi de 7h à 21h uniquement avec rendez-vous,
-            <br> pour vous garantir une qualité d'accueil et de service les meilleures.</p>
+        <p> Nos praticiens vous accueillent tous les jours 
+            <br>du lundi au vendredi de 7h à 21h uniquement avec rendez-vous,
+            <br> pour vous garantir une qualité d'accueil et de service les meilleurs.</p>
+            <p></p>
             <p> Sur ce site, retrouvez donc tous les informations qui peuvent vous être utiles, comme:
                 <br><ul><li>le choix de votre praticien, ses honaires, ses compétences.</li></ul>
                 <p> - Généraliste:<a href="generaliste.html"></a> </p>
@@ -44,26 +54,33 @@
             </p>
             <p></p>
             <p>Si vous le souhaitez, vous avez la possibilité de nous transmettre un message dans l'espace "contact",<a href="contact.html"></a></p>
-            <p>également de contacter directement le cabinet avec l'option d'appel située en haut à gauche du site.</p>
+            <p>-> Egalement de contacter directement le cabinet avec l'option d'appel située en haut à gauche du site.</p>
             <p></p>
-    <p> Egalement, nous sommes à l'écoute de tous vos commantaires et questions pour améliorer notre proposition de services.</p>
-    <p>Bien à vous, l'équipe Zen-Médical.</p><br/>
-    <figure><img src="images/equipe.jpg" alt="photo_equipe_medicale"/></figure>
+    <p> Nous sommes à l'écoute de tous vos commantaires et questions pour améliorer notre proposition de services.</p>
+    <p>Bien à vous, </p>
+        <p>l'équipe Zen-Médical.</p><br/>
     </p>
 </article>
 
-<aside>
-<p class="horaires"></p><!--article home page-->
-<p class="adresse"></p><!--reminber telephone of cabinet-->
-<p class="adress"></p><!--reminber adress of cabinet-->
-</aside>
+</main>
+<section class="right_blocs">
+        <aside><p class="horaires"></p><!--permanente information--> Horaires d'ouverture:</p>
+            <p>du lundi au vendredi: de 7h à 21h</p></aside>
+            <p></p>
+        <aside><p class="tel">Téléphone:
+            <p>03 20 61 70 70</p><!--reminber telephone of cabinet--></p></aside>
+        <aside><p class="adress">2 Boulevard Thomson, 59810 Lesquin</p><!--reminber adress of cabinet--></aside>
+        </section>
 
-    <footer><!--possibility add social networks-->
-        <table>
-            <tr><td>Adresse:</td><td>Téléphone:</td><td>Email:</td></tr>
-            <tr><td>2 Boulevard Thomson, 59810 Lesquin</td><td>03 20 61 70 70</td><td>contact[at]zen-medical.com</td></tr>
-        </table>
+<figure><img src="images/equipe.jpg" alt="photo_equipe_medicale" class="team_medical"/></figure>
+
+
+    <footer class="footer"><!--possibility add social networks-->
+        <aside><div>Adresse: 2 boulevard Thomson, 59810 Lesquin</div></aside>
+        <aside>Téléphone: 03 20 61 70 70</aside>
+        <aside>Email: contact[at]zen-medical.com</aside>
+        <aside>Site web créé par: #dev-amandine</aside>
         </footer>
-
+    </div>
 </body>
 </html>
