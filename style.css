@@ -40,7 +40,9 @@ figure {
 /* commantaires:aside */
 .right_blocs {
     background: rgb(58, 116, 192); margin: 1; padding: 2; border:10em; position: relative;
-    grid-column: 9 /11; text-align: center; font-size: 1rem; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    grid-column: 9 /11; text-align: center; color: white;
+    font-size: 2rem; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
     
 }
 
