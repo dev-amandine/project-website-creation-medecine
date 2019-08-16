@@ -36,9 +36,9 @@ font-size: 1.2rem; color: rgb(16, 16, 41);
     background-size: 100%; background-repeat: no-repeat;
 }
 .title {
-    background-color: rgb(19, 128, 161); 
-    text-align: center; font-family: serif; font-size: 2rem;
-    grid-column: 3 /5; height: 20rem; width: 20%; color: white; z-index: 0;
+    background-color:rgb(3, 145, 189); 
+    text-align: center; font-family: serif; font-size: 3.5rem;
+    grid-column: 3 /5; height: 30rem; width: 20%; color: white; z-index: 0;
 }
 
 
@@ -76,7 +76,7 @@ a.top {
 /* commantaires:aside */
 
 .right_blocs {
-    background: rgb(115, 176, 179); margin: 1; padding: 2; border:10em; position: relative;
+    background:rgb(7, 162, 167); margin: 1; padding: 2; border:10em; position: relative;
     grid-column: 10 /12; text-align: center; color: white;
     font-size: 2rem; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
