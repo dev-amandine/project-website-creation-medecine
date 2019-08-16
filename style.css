@@ -2,24 +2,18 @@
 html {
     font-size: 10px;
 }
-
 /* commantaires:body */
 .gridbody {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: minmax(1rem, auto);
 }
-/* commantaires:header*/
-.header {
-    grid-column: 2 /12; background-image: url("images/background_site.jpg");
-    background-size: 100%; background-repeat: no-repeat;
-}
-.title {
-    background-color:rgb(19, 128, 161); 
-    text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 6rem;
-    grid-column: 3 /5; height: 30rem; width: 30%; color: white; z-index: 0;
-}
-/* commantaires:commit navigation */
+
+
+
+
+/* commantaires: navigation */
+
 a:visited {
     color: cadetblue; font-size: 1.5rem;
 }
@@ -27,26 +21,33 @@ a:link {
     text-decoration: aquamarine;
 }
 .appel {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(16, 16, 41);
+    font-family: Impact, sans-serif; color: rgb(16, 16, 41);
     background-color:rgb(136, 255, 0) ; text: italic; font-size: 1.2rem;
 }
 .navclass {
 grid-column: 4/13; text-align: right; font-family: sans-serif;
-font-size: 1.2rem; color: black;
+font-size: 1.2rem; color: rgb(16, 16, 41);
 }
-/* commantaires:image_header */
-.background_site {
-    grid-column: 2/12; z-index: 0;
+
+/* commantaires:header*/
+
+.header {
+    grid-column: 2 /12; background-image: url("images/fond_cabinet_1.jpg");
+    background-size: 100%; background-repeat: no-repeat;
 }
-/* commantaires:commit image header */
-.pictureback {
-    height: 30rem; width: 100%; ;
+.title {
+    background-color: rgb(19, 128, 161); 
+    text-align: center; font-family: serif; font-size: 2rem;
+    grid-column: 3 /5; height: 20rem; width: 20%; color: white; z-index: 0;
 }
 
 
-/* commantaires:main */
+
+
+/* commantaires:main principal */
+
 main {
-    grid-column: 3 /9; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-column: 3 /9; font-family: sans-serif;
     font-size: 1.5rem;
 }
 figure {
@@ -55,22 +56,9 @@ figure {
 .team_medical {
     height: 30rem; width: auto;
 }
-/* commantaires:aside */
-.right_blocs {
-    background:cadetblue; margin: 1; padding: 2; border:10em; position: relative;
-    grid-column: 10 /12; text-align: center; color: white;
-    font-size: 2rem; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.alerte_image {
-    height: 10rem; width: auto;
-}
-.bottom_blocs {
-    text-align: center; color: blue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
 /* commantaires:bouton top page */
 a.top {
-    position:fixed; font-size: 1rem; text-decoration: brown;
+    position:fixed; font-size: 1rem; text-decoration:black;
  }
  .scroll_to_top { 
     position: fixed; 
@@ -83,15 +71,44 @@ a.top {
     height: 2rem; width: 1rem;
   }
 
+
+
+/* commantaires:aside */
+
+.right_blocs {
+    background: rgb(115, 176, 179); margin: 1; padding: 2; border:10em; position: relative;
+    grid-column: 10 /12; text-align: center; color: white;
+    font-size: 2rem; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
 /* commantaires:footer */
+
 .footer {
-    background: rgb(19, 19, 80); color: beige; text-align: center; font-family: 'Courier New', Courier, monospace; font-size: 1rem;
+    background: rgb(19, 19, 80); color: beige; text-align: center; 
+    font-family: 'Courier New', Courier, monospace; font-size: 1.2rem;
     margin-block: 5rem; padding: 2.5rem;
     grid-column: 2 /12;
 }
+
+
+/* commantaires:decor_ pages doctors */
 .attention_note {
-text-align: center; color: green; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center; color: green; font-size: 2rem;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .decor_osteo {
     align-items: center; height: 2rem; width: 1rem;
+}
+.attention_urgence {
+    text-align: center; color: rgb(207, 8, 18); font-size: 3rem;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    }
+.attention {
+    align-items: center;
+}
+.title_urgence {
+    color:rgb(207, 8, 18); font-size: 3rem;
 }
