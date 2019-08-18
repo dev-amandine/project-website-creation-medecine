@@ -156,19 +156,32 @@ font-family: Sans-serif;
         
 	/* FOR ALL PAGES */
 
-	.title {
-                width: 80px;
-                height: 80px;
-        }
-
 	.right_blocs {
                 display: none;
         }
+
+        #navigation {
+            display: list-item;
+        }
+        main {
+            position: relative;
+        }
+        .header .title {
+            position: relative;
+        }
+
 /* MEDIA QUERIES PART TABLET */
 
 
 @media screen and (min-width: 760px) and (max-width: 1050px){
-	
+    
+
     .right_blocs {
                 display: none;
+        }
+        main {
+            position: relative;
+        }
+        .header .title {
+            position: relative;
         }
