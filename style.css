@@ -164,11 +164,12 @@ font-family: Sans-serif;
             display: list-item;
         }
         main {
-            position: relative;
+            grid-column: 2; position: relative;
         }
         .header .title {
-            position: relative;
+            position: relative; grid-column: 2;
         }
+    }
 
 /* MEDIA QUERIES PART TABLET */
 
@@ -180,8 +181,9 @@ font-family: Sans-serif;
                 display: none;
         }
         main {
-            position: relative;
+            grid-column: 2; position: relative;
         }
         .header .title {
-            position: relative;
+            position: relative; grid-column: 2;
         }
+    }
