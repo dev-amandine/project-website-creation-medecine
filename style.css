@@ -146,3 +146,29 @@ font-family: Sans-serif;
 .title_urgence {
     color:rgb(207, 8, 18); font-size: 3rem;
 }
+
+
+
+/* MEDIAS QUERIES PART SMARTPHONE */
+
+
+@media screen and (max-width: 760px){
+        
+	/* FOR ALL PAGES */
+
+	.title {
+                width: 80px;
+                height: 80px;
+        }
+
+	.right_blocs {
+                display: none;
+        }
+/* MEDIA QUERIES PART TABLET */
+
+
+@media screen and (min-width: 760px) and (max-width: 1050px){
+	
+    .right_blocs {
+                display: none;
+        }
