@@ -161,9 +161,9 @@ font-family: Sans-serif;
         }
 
         #navigation {
-            display: list-item;
+            grid-column: 2; position: relative;
         }
-        main {
+        main .team_medical .scroll  .top {
             grid-column: 2; position: relative;
         }
         .header .title {
@@ -180,7 +180,10 @@ font-family: Sans-serif;
     .right_blocs {
                 display: none;
         }
-        main {
+        #navigation {
+            grid-column: 2; position: relative;
+        }
+        main .team_medical .scroll .top {
             grid-column: 2; position: relative;
         }
         .header .title {
