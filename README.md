@@ -1,7 +1,7 @@
 
-Hy! Welcome to...
+Hy! Welcome to my project...
 
-# project_creation_website medecine (imagination)
+# creation_website medecine (imagination)
 
 
 Passionate about the world of visual communication.
